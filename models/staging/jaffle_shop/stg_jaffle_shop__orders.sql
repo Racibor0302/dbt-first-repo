@@ -19,4 +19,10 @@ renamed as (
 
 )
 
-select * from renamed
+select 
+        order_id,
+        customer_id,
+        order_date,
+        order_status,
+        _etl_loaded_at
+from renamed
